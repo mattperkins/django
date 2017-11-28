@@ -20,7 +20,7 @@
 # test against the database
 # from within project directory:
 # $ python3 manage.py shell
-# >>> from articles.models import Article
+# >>> from articles.models import Article // from music.models import Album
 # >>> Article.objects.all()
 # >>> article = Article()
 # >>> article.title = "A title"
