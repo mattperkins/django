@@ -26,3 +26,6 @@
 # >>> article.title = "A title"
 # >>> article.save()
 # >>> Article.objects.all()
+
+# configure superuser admin/login
+# $ python3 manage.py createsuperuser

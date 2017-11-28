@@ -13,3 +13,8 @@ class Article(models.Model):
     # (self) = instance of the article
     def __str__(self):
         return self.title
+
+    def snippet(self):
+        return self.body[:50] + '...'
+
+    
