@@ -27,5 +27,19 @@
 # >>> article.save()
 # >>> Article.objects.all()
 
+# >>> a = Album(artist="Artist", album_title="Album", genre="Pop", album_logo="#")
+# >>> a.save()
+# >>> a.artist // prints 'Artist' 
+# >>> a.album_title // prints 'Album'
+# >>> a.id // prints id for that object/item in database
+
+### Alternative way to write object data to database
+# >>> b = Album()
+# >>> b.artist = ""
+# >>> b.album_title = ""
+# >>> b.genre = ""
+# >>> b.album_logo = ""
+# >>> b.save()
+
 # configure superuser admin/login
 # $ python3 manage.py createsuperuser
