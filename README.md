@@ -20,12 +20,12 @@
 # test against the database
 # from within project directory:
 # $ python3 manage.py shell
-# >>> from articles.models import Article // from music.models import Album
-# >>> Article.objects.all()
-# >>> article = Article()
-# >>> article.title = "A title"
-# >>> article.save()
-# >>> Article.objects.all()
+  # >>> from articles.models import Article || from music.models import Album
+  # >>> Article.objects.all() || Album.objects.all()
+  # >>> article = Article() || album = Album()
+  # >>> article.title = "A title" || album.album_title = "New Album"
+  # >>> article.save()
+  # >>> Article.objects.all()
 
 # >>> a = Album(artist="Artist", album_title="Album", genre="Pop", album_logo="#")
 # >>> a.save()
